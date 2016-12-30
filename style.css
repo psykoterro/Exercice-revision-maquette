@@ -3,10 +3,10 @@
 	padding: 0;
 }
 
-@font-face{
+/*@font-face{
 	font-family: "HelveticaNeueLTStd Lt";
 	src: url("fonts/HelveticaNeueLTStd Lt.otf");
-}
+}*/
 
 /*Général balises*/
 body{
@@ -143,7 +143,16 @@ article img{
 	justify-content: space-around;
 }
 
+.row{
+	margin-left: 17.813em;
+}
+
+.pfimg{
+	display: flex;
+	justify-content: center;
+	width: 68%;
+	margin-top: 1.875em;
+}
 /*Header ID*/
 
 /*Main ID*/
-

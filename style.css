@@ -147,11 +147,32 @@ article img{
 	margin-left: 17.813em;
 }
 
+.row ul li{
+	font-weight: bold;
+	color: #9A959F;
+}
+
 .pfimg{
 	display: flex;
 	justify-content: center;
 	width: 68%;
 	margin-top: 1.875em;
+	margin-left: -2.500em;
+}
+
+.comment{
+	width: 100%;
+	margin-top: 3.125em;
+	background-color: #F57E37;
+	color: #fff;
+}
+
+.txtcom{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 18.750em;
+	margin-left: 21.250em;
 }
 /*Header ID*/
 

@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face{
+	font-family: "HelveticaNeueLTStd Lt";
+	src: url("fonts/HelveticaNeueLTStd Lt.otf");
+}
+
+/*Général balises*/
+body{
+	font-family: "HelveticaNeueLTStd Lt", sans-serif;
+	}
+
+/*Header balise*/
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	height: 46.875em;
+	padding: 2%;
+	background: url("img/image-499666622.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	width: 20%;
+}
+
+li{
+	margin: 15%;
+}
+
+h1{
+	font-size: 5.000em;
+}
+
+button{
+	width: 12.500em;
+	height: 3.125em;
+	font-size: 1.250em;
+	background-color: #F57E37;
+	color: #fff;
+	border: none;
+}
+/*Header class*/
+.nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+.titre{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	height: 31.250em;
+	padding: 17%;
+}
+
+.titre p{
+	font-size: 2.313em;
+}
+/*Header ID*/

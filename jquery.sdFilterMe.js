@@ -79,7 +79,7 @@
         }).wrap($outerWrapper);
 
         $lis.css({
-            'display': 'inline-block'
+            'display': 'flex'
         }).each(function(i) {
             widths[i] = $(this).outerWidth() + options.css.border.width * 2;
             heights[i] = $(this).outerHeight() + options.css.border.width * 2;

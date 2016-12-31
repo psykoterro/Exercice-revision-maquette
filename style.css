@@ -55,7 +55,6 @@ button{
 /*Main Balises*/
 main{
 	width: 100%;
-	padding: 2%;
 	color: #A49F9F;
 }
 
@@ -80,7 +79,7 @@ article{
 }
 
 article img{
-	margin-right: 3.750em;  
+	margin-right: 3.750em;
 }
 /*Header class*/
 .nav{
@@ -173,6 +172,30 @@ article img{
 	justify-content: space-around;
 	height: 18.750em;
 	margin-left: 21.250em;
+}
+
+.containteam{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 43.750em;
+	margin-left: 14.375em;
+}
+
+.blocteam{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 18%;
+	height: 37.500em;
+}
+
+.blocteam hr{
+	width: 100%;
+	margin-left: 0;
 }
 /*Header ID*/
 

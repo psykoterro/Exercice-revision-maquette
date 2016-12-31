@@ -89,6 +89,27 @@ article img{
 span{
 	font-size: 0.750em;
 }
+
+i{
+	margin: 1%;
+}
+
+fieldset{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	height: 28.125em;
+	border: none;
+	color: #E5E5DF;
+}
+
+fieldset input{
+	width: 100%;
+	height: 3.125em;
+	border: none;
+	background-color: #F6F5F0;
+}
 /*Header class*/
 .nav{
 	display: flex;
@@ -232,6 +253,50 @@ span{
 .txtstatic hr{
 	width: 55%;
 	margin-left: 0;
+}
+
+.contact{
+	width: 100%;
+	height: 50.000em;
+}
+
+.containasid{
+	display: flex;
+	margin-left: 20.000em;
+}
+
+.asidleft{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30%;
+	height: 37.500em;
+	margin-right: 6.250em;
+}
+
+.txtadd{
+	display: flex;
+}
+
+.txtadd p{
+	margin-right: 25%;
+}
+
+.txtadd p a{
+	text-decoration: none;
+	color: #F57E37;
+}
+
+.asidright{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30%;
+	height: 37.500em;
+}
+
+.msgin{
+	height: 12.500em;
 }
 /*Header ID*/
 

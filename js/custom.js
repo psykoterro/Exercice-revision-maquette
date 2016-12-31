@@ -1,3 +1,4 @@
+//Fixation de la barre de nav au scroll
 $(window).scroll(function (event) {
     // A chaque fois que l'utilisateur va scroller (descendre la page)
     var y = $(this).scrollTop(); // On récupérer la valeur du scroll vertical
@@ -11,6 +12,7 @@ $(window).scroll(function (event) {
     }
   });
 
+//Effet de scroll plus fluide
 $(document).ready(function(){
     // au clic sur un lien
     $('a[href^="#"]').on('click', function(evt){

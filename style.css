@@ -86,9 +86,9 @@ article img{
 	margin-right: 3.750em;
 }
 
-span{
+/*span{
 	font-size: 0.750em;
-}
+}*/
 
 i{
 	margin: 1%;
@@ -109,6 +109,18 @@ fieldset input{
 	height: 3.125em;
 	border: none;
 	background-color: #F6F5F0;
+}
+/*Footer balises*/
+footer{
+	width: 100%;
+	height: 37.500em;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+		),url("img/image-876206940.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
 }
 /*Header class*/
 .nav{
@@ -297,6 +309,42 @@ fieldset input{
 
 .msgin{
 	height: 12.500em;
+}
+
+/*Footer Class*/
+.containtxtfoo{
+	display: flex;
+	align-items: center;
+	margin-left: 15.000em;
+}
+
+.txtfoo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 18.750em;
+}
+
+.txtfoo p{
+	font-size: 2.500em;
+}
+
+.barfoo{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 3.125em;
+	background-color: #1F1F1F;
+	color: #A49F9F;
+}
+
+.barfoo h6{
+	margin-left: 29.688em;
+}
+
+.barfoo span{
+	font-weight: bold;
+	color: #fff;
 }
 /*Header ID*/
 

@@ -12,6 +12,7 @@
 body{
 	font-family: "HelveticaNeueLTStd Lt", sans-serif;
 	}
+/*Général class*/
 
 /*Header balise*/
 header{
@@ -22,7 +23,10 @@ header{
 	width: 100%;
 	height: 46.875em;
 	padding: 2%;
-	background: url("img/image-499666622.jpg");
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+		),url("img/image-499666622.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
@@ -80,6 +84,10 @@ article{
 
 article img{
 	margin-right: 3.750em;
+}
+
+span{
+	font-size: 0.750em;
 }
 /*Header class*/
 .nav{
@@ -195,6 +203,34 @@ article img{
 
 .blocteam hr{
 	width: 100%;
+	margin-left: 0;
+}
+
+.static{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 37.500em;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+		),url("img/image-195625538.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	color: #fff;
+}
+
+.txtstatic{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	height: 60%;
+	margin-left: 20.000em;
+}
+
+.txtstatic hr{
+	width: 55%;
 	margin-left: 0;
 }
 /*Header ID*/
